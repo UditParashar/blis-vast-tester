@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/blis-vast-tester/static/css/main.062f1670.chunk.css",
+    "main.js": "/blis-vast-tester/static/js/main.152927b3.chunk.js",
+    "main.js.map": "/blis-vast-tester/static/js/main.152927b3.chunk.js.map",
+    "runtime-main.js": "/blis-vast-tester/static/js/runtime-main.864a3a17.js",
+    "runtime-main.js.map": "/blis-vast-tester/static/js/runtime-main.864a3a17.js.map",
+    "static/css/2.d4d07278.chunk.css": "/blis-vast-tester/static/css/2.d4d07278.chunk.css",
+    "static/js/2.1d82c21a.chunk.js": "/blis-vast-tester/static/js/2.1d82c21a.chunk.js",
+    "static/js/2.1d82c21a.chunk.js.map": "/blis-vast-tester/static/js/2.1d82c21a.chunk.js.map",
+    "index.html": "/blis-vast-tester/index.html",
+    "static/css/2.d4d07278.chunk.css.map": "/blis-vast-tester/static/css/2.d4d07278.chunk.css.map",
+    "static/css/main.062f1670.chunk.css.map": "/blis-vast-tester/static/css/main.062f1670.chunk.css.map",
+    "static/js/2.1d82c21a.chunk.js.LICENSE.txt": "/blis-vast-tester/static/js/2.1d82c21a.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/blis-vast-tester/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.864a3a17.js",
+    "static/css/2.d4d07278.chunk.css",
+    "static/js/2.1d82c21a.chunk.js",
+    "static/css/main.062f1670.chunk.css",
+    "static/js/main.152927b3.chunk.js"
+  ]
+}
