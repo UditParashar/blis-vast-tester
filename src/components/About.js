@@ -27,11 +27,11 @@ const About = () => (
       <div>
         by the{' '}
         <a
-          href="https://www.doubleverify.com/"
+          href="https://www.blis.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          DoubleVerify
+          Blismedia
         </a>{' '}
         team
       </div>

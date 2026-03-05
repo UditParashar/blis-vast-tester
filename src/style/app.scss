@@ -1,11 +1,13 @@
 @import '../../node_modules/reset-css/reset.css';
 
-@import 'themes/iab/_external.scss';
-@import 'themes/iab/_variables.scss';
+// ── Blis theme variables (overrides default palette) ──────────────────────
+@import 'themes/blis/_variables.scss';
 @import '_computed.scss';
 @import '_mixins.scss';
-@import 'themes/iab/_styles.scss';
+// ── Blis wordmark logo in header ──────────────────────────────────────────
+@import 'themes/blis/_styles.scss';
 
+// ── Base & component styles (compiled against Blis variables above) ────────
 @import '_base.scss';
 @import 'components/_base.scss';
 @import 'components/_header.scss';
@@ -13,3 +15,6 @@
 @import 'components/_config.scss';
 @import 'components/_runner.scss';
 @import 'components/_modals.scss';
+
+// ── Blis dark-theme post-component overrides ───────────────────────────────
+@import 'themes/blis/_overrides.scss';

@@ -1,0 +1,23 @@
+@import '../default/_variables.scss';
+
+// Typography
+$font-family: 'Inter', 'Segoe UI', Arial, Helvetica, sans-serif;
+$font-weight-bold: 700;
+
+// Blis dark-navy palette
+$background-color:            #0B1829;
+$foreground-color:            #C8D8EB;
+
+// accent-color-1 → header bar background
+$accent-color-1:              #050E1C;
+// accent-color-2 → primary Blis teal (CTAs, borders, active states) — from blisstyles.css
+$accent-color-2:              #21b19d;
+// accent-color-3 → on-dark text / white
+$accent-color-3:              #FFFFFF;
+
+$info-color:                  #2ED9FF;
+$warning-color:               #FFB800;
+$error-color:                 #FF4A6A;
+
+$scrollbar-foreground-color:  #1A3A5C;
+$scrollbar-background-color:  #050E1C;

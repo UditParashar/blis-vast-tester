@@ -1,0 +1,38 @@
+// ─── Post-component overrides for the Blis dark theme ──────────────────────
+//
+// The default component styles use $background-color for text/icons that sit
+// on top of the header bar. On a light theme $background-color is white, so
+// everything is visible. On Blis's dark theme both would be near-black on
+// near-black, so we override them here (imported after the component styles).
+
+// Header: title text and nav icon buttons
+header {
+  color: $accent-color-3;
+
+  nav a {
+    background: rgba(255, 255, 255, 0.08);
+    color: $accent-color-3;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    transition: background 0.15s ease, border-color 0.15s ease;
+
+    &:hover {
+      background: $accent-color-2;
+      color: $accent-color-3;
+      border-color: $accent-color-2;
+      text-decoration: none;
+    }
+  }
+}
+
+// Form inputs — give them a slightly lighter surface so they read as inputs
+input, textarea, select {
+  background: #0F2238;
+  border-color: rgba(200, 216, 235, 0.15);
+  color: $foreground-color;
+
+  &:focus {
+    border-color: $accent-color-2;
+    box-shadow: 0 0 0 2px rgba(33, 177, 157, 0.3);
+  }
+}

@@ -1,0 +1,17 @@
+// Blis wordmark — real PNG logo (200×78 px → aspect ratio ≈ 2.56)
+$blis-logo-aspect-ratio: 200 / 78;
+
+header h1 .before {
+  float: left;
+  background-image: url(blismedia-logo.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: contain;
+  height: 100%;
+  @include respond('width',
+    $xs-font-size-large * $blis-logo-aspect-ratio
+    $sm-font-size-large * $blis-logo-aspect-ratio
+    $md-font-size-large * $blis-logo-aspect-ratio
+    $lg-font-size-large * $blis-logo-aspect-ratio);
+  @include respond('margin-right', $r-space-medium);
+}
